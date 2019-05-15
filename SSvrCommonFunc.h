@@ -2,9 +2,6 @@
 *
 *	一些简单的函数实现
 *
-*
-*
-*/
 
 
 #include <GeometryLib/GeometryLibIncludes.h>
