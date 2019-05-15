@@ -6,8 +6,6 @@
 *
 */
 
-#ifndef _SSVRCOMMONFUNC_H_
-#define _SSVRCOMMONFUNC_H_
 
 #include <GeometryLib/GeometryLibIncludes.h>
 #include <PowerSvrComponentDef.h>
@@ -22,7 +20,6 @@ class POWERSVRCOMPONENT_API SSvrCommonFunc
 {
 public :
 	SSvrCommonFunc();
-	~SSvrCommonFunc();
 
 	/// 字符串匹配度算法，顺序匹配，str2是str1的子集才能匹配到0.5上，
 	/// 字符串是有序匹配，str1、str2各读取一遍即可得到结果
